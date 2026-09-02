@@ -19,6 +19,7 @@ To normalize the array, the following formula was used:
 
 $$
 Z = \frac{X - x̄}{σ}
+where:
 $$
 
 
