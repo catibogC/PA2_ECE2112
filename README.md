@@ -2,7 +2,7 @@
 
 Please take note that the following code was used in order to access the Numpy library.
 
-  import numpy as np #changes numpy to np
+    import numpy as np #changes numpy to np
 
 ## A. REPRODUCIBLE NORMALIZATION PROBLEM
 
@@ -12,7 +12,12 @@ Please take note that the following code was used in order to access the Numpy l
 
 To begin, the following statements were written in order to create the random 5x5 array.
 
-  np.random.seed(2112)
-  X = np.random.randint(10, 101, size=(5, 5))
+    np.random.seed(2112)
+    X = np.random.randint(10, 101, size=(5, 5))
 
-In order to get the normalized array, 
+To normalize the array, the following formula was used:
+
+$$
+Z = (X − x̄) / σ
+$$
+
