@@ -22,7 +22,7 @@ $$
 Z = \frac{X - x̄}{σ}
 $$
 
-Where:
+<center>Where:
 
 Z - Normalized Array
 
@@ -30,7 +30,7 @@ X - Randomized Array
 
 x̄ - Mean of Randomized Array
 
-σ = Standard Deviation of Randomized Array
+σ = Standard Deviation of Randomized Array</center>
 
 
 In getting the 
