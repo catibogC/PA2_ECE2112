@@ -16,7 +16,7 @@ To begin, the following statements were written in order to create the random 5x
     X = np.random.randint(10, 101, size=(5, 5))
     print(X)
 
-To normalize the array, the following formula was used:
+To normalize the array, the following formula was used.
 
 ---
 
@@ -38,12 +38,12 @@ x̄ - Mean of All Elements in Randomized Array
 
 Before using the equation, it is important to note that we should get the mean and standard deviation of all elements in the randomized 5x5 array we made.
 
-In getting the mean of the randomized 5x5 array, the following statement was used:
+In getting the mean of the randomized 5x5 array, the following statement was used.
 
     np.mean(X) #gets the mean of every element in an array
     print(np.mean(X))
 
-In getting the standard deviation of the randomized 5x5 array, the following statement was used:
+In getting the standard deviation of the randomized 5x5 array, the following statement was used.
 
     np.std(X) #gets the standard deviation of every element in an array
     print(np.std(X))
@@ -95,7 +95,7 @@ The following statement was used to reshape the array into a 10x10 array. This a
     C = array.reshape(10,10)
     print(C)
 
-In order to get the elements that are divisible by 4, using Boolean conditions, I made it so that if an element has a remainder of 0 when it is divided by 4, it would be printed in the next array. This array would be expressed as div_by_4.
+In order to get the elements that are divisible by 4, using Boolean conditions, I made it so that if an element has a remainder of 0 when it is divided by 4, it would be displayed in the next array. This array would be expressed as div_by_4.
 
     div_by_4 = C[C % 4 == 0]
     print(div_by_4)
@@ -133,7 +133,17 @@ The following statement was used to get the mean of the array. The mean would be
     S_mean = S.mean()
     print(S_mean)
 
-To 
+To obtain the elements that are larger than the mean of all the elements in the array, using Boolean conditions, i made it so that if an element were to be greater than the S_mean, then they would be displayed in the next array. This array would be expressed as above_mean.
+
+    above_mean = S[S > S_mean]
+    print(above_mean)
+
+With this, I successfully obtained the elements from a squared 6x6 ndarray that are larger than the mean of said ndarray.
+
+The following statement was used to store the values in above_mean.
+
+    np.save("above_mean.npy", above_mean)
+    np.save
 
 
 
