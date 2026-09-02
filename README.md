@@ -32,7 +32,7 @@ x̄ - Mean of All Elements in Randomized Array
 
 σ = Standard Deviation of All Elements in Randomized Array
 
----
+***
 
 Before using the equation, it is important to note that we should get the mean and standard deviation of all elements in the randomized 5x5 array we made.
 
@@ -48,11 +48,14 @@ In getting the standard deviation of the randomized 5x5 array, the following sta
 
 After obtaining the mean and standard deviation of all elements in the randomized 5x5 array, we can now compute the normalized array.
 
-To input the equation, the following statement was used. The normalized array is expressed as X_normalized.
+To input the equation and to get the normalized array, the following statement was used. The normalized array is expressed as X_normalized.
 
-X_normalized = (X - np.mean(X)) / np.std(X)
-print(X_normalized)
+    X_normalized = (X - np.mean(X)) / np.std(X)
+    print(X_normalized)
 
+Although we have the normalized array, it is part of the objective to get its mean and standard deviation.
+
+This can be done through using the statements we used previously 
 
 
 
