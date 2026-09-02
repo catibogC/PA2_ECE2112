@@ -33,3 +33,5 @@ x̄ - Mean of Randomized Array
 σ = Standard Deviation of Randomized Array
 
 
+In getting the 
+
