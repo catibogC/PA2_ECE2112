@@ -76,7 +76,7 @@ To set up the array, I listed down all the elements starting from 1 to 100.
     matrix = np.arange(1,101)
     print(matrix)
 
-To cube the elements in the array, I exponentiated the array to 3.
+To cube the elements in the array, the array was exponentiated to 3.
 
     array = array ** 3
     print(array)
@@ -86,6 +86,12 @@ The following statement was used to reshape the array into a 10x10 array. This a
     C = array.reshape(10,10)
     print(C)
 
+In order to get the elements that are divisible by 4, using Boolean conditions, I made it so that if an element has a remainder of 0 when it is divided by 4, it would be printed in the next array. This array would be expressed as div_by_4.
+
+    div_by_4 = C[C % 4 == 0]
+    print(div_by_4)
+
+## C. ABOVE-MEAN SQUARE PROBLEM
 
 
 
