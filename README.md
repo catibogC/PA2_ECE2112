@@ -20,6 +20,16 @@ To normalize the array, the following formula was used:
 
 $$
 Z = \frac{X - x̄}{σ}
+
+Where:
+
+Z - Normalized Array
+
+X - Randomized Array
+
+x̄ - Mean of Randomized Array
+
+σ = Standard Deviation of Randomized Array
 $$
 
-To get the mean of the array, 
+
