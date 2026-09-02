@@ -63,6 +63,13 @@ This can be done by using the statements we used previously, but instead, we rel
 
 *Do note that after normalizing the array, the standard deviation should always be equal to 1.
 
+With this, I successfully created a normalized array and I was also able to get its mean and standard deviation.
+
+The following statement was used to store the values in X_Normalized.
+
+    np.save("X_normalized.npy", X_normalized)
+    np.save
+
 ---
 
 ## B. CURVES DIVISIBLE BY 4
@@ -91,15 +98,40 @@ In order to get the elements that are divisible by 4, using Boolean conditions, 
     div_by_4 = C[C % 4 == 0]
     print(div_by_4)
 
+With this, I successfully obtained the elements that are divisible by 4 from a cubed 10x10 ndarray.
+
+The following statement was used to store the values in div_by_4.
+
+    np.save("div_by_4.npy", div_by_4)
+    np.save
+
 ## C. ABOVE-MEAN SQUARE PROBLEM
 
+**Objectives:** The goal of this problem was to obtain elements from a squared 6x6 ndarray that are larger than the mean of said ndarray.
 
+**Discussion:**
 
+To set up the array, I listed down all the elements starting from 1 to 36.
 
+    array = np.arange(1,37)
+    print(array)
 
+To square the elements, the array was exponentiated to 2.
 
+    array = array ** 2
+    print(array)
 
+The following statement was used to reshape the array into a 6x6 array. This array would be expressed as S.
 
+    S = array.reshape(6,6)
+    print(S)
+
+The following statement was used to get the mean of the array. The mean would be expressed as S_mean.
+
+    S_mean = S.mean()
+    print(S_mean)
+
+To 
 
 
 
