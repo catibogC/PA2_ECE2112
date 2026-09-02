@@ -1,8 +1,8 @@
 # PA2_ECE2112
 
-Please take note that the following code was used in order to access the Numpy library.
+Please take note that the following code was used in order to access the NumPy library.
 
-    import numpy as np #changes numpy to np
+    import numpy as np
 
 ## A. REPRODUCIBLE NORMALIZATION PROBLEM
 
@@ -55,7 +55,13 @@ To input the equation and to get the normalized array, the following statement w
 
 Although we have the normalized array, it is part of the objective to get its mean and standard deviation.
 
-This can be done through using the statements we used previously 
+This can be done by using the statements we used previously, but instead, we relay them to X_Normalized.
+
+    print(np.mean(X_normalized))
+    
+    print(np.std(X_normalized))
+
+*Do note that after normalizing the array, the standard deviation should be equal to 1.
 
 
 
