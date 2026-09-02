@@ -10,7 +10,7 @@ Please take note that the following code was used in order to access the Numpy l
 
 **Discussion:**
 
-To begin, the following statements were written in order to create the random 5x5 array.
+To begin, the following statements were written in order to create the random 5x5 array. The initial randomized array is expressed as X.
 
     np.random.seed(2112)
     X = np.random.randint(10, 101, size=(5, 5))
@@ -43,10 +43,16 @@ In getting the mean of the randomized 5x5 array, the following statement was use
 
 In getting the standard deviation of the randomized 5x5 array, the following statement was used:
 
-    np.std(X)
+    np.std(X) #gets the standard deviation of every element in an array
     print(np.std(X))
 
-After getting the values for the mean and standard deviation of all the elements in the randomized 5x5 array, we can now 
+After obtaining the mean and standard deviation of all elements in the randomized 5x5 array, we can now compute the normalized array.
+
+To input the equation, the following statement was used. The normalized array is expressed as X_normalized.
+
+X_normalized = (X - np.mean(X)) / np.std(X)
+print(X_normalized)
+
 
 
 
