@@ -61,10 +61,13 @@ This can be done by using the statements we used previously, but instead, we rel
     
     print(np.std(X_normalized))
 
-*Do note that after normalizing the array, the standard deviation should be equal to 1.
+*Do note that after normalizing the array, the standard deviation should always be equal to 1.
 
+---
 
+**B. CURVES DIVISIBLE BY 4
 
+**Objectives:** The goal of this problem was to create an array whose elements 
 
 
 
