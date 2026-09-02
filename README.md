@@ -14,12 +14,12 @@ To begin, the following statements were written in order to create the random 5x
 
     np.random.seed(2112)
     X = np.random.randint(10, 101, size=(5, 5))
+    print(X)
 
 To normalize the array, the following formula was used:
 
 $$
 Z = \frac{X - x̄}{σ}
-where:
 $$
 
-
+To get the mean of the array, 
