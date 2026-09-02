@@ -65,10 +65,26 @@ This can be done by using the statements we used previously, but instead, we rel
 
 ---
 
-##B. CURVES DIVISIBLE BY 4
+## B. CURVES DIVISIBLE BY 4
 
-**Objectives:** The goal of this problem was to obtain elements from a cubed 10x10 array that are divisible by 4.
+**Objectives:** The goal of this problem was to obtain elements that are divisible by 4 from a cubed 10x10 ndarray.
 
+**Discussion:**
+
+To set up the array, I listed down all the elements starting from 1 to 100.
+
+    matrix = np.arange(1,101)
+    print(matrix)
+
+To cube the elements in the array, I exponentiated the array to 3.
+
+    array = array ** 3
+    print(array)
+
+The following statement was used to reshape the array into a 10x10 array. This array would be expressed as C. Do note that it would not look like a true 10x10 array due to the numbers being too large, hence not fitting within the cell.
+
+    C = array.reshape(10,10)
+    print(C)
 
 
 
