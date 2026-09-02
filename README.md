@@ -18,6 +18,6 @@ To begin, the following statements were written in order to create the random 5x
 To normalize the array, the following formula was used:
 
 $$
-Z = (X − x̄) / σ
+Z = (X − x̄)/σ
 $$
 
