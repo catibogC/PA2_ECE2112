@@ -20,6 +20,7 @@ To normalize the array, the following formula was used:
 
 $$
 Z = \frac{X - x̄}{σ}
+$$
 
 Where:
 
@@ -30,6 +31,5 @@ X - Randomized Array
 x̄ - Mean of Randomized Array
 
 σ = Standard Deviation of Randomized Array
-$$
 
 
