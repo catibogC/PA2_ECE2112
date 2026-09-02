@@ -22,16 +22,99 @@ $$
 Z = \frac{X - x̄}{σ}
 $$
 
-<center>Where:
+Where:
 
 Z - Normalized Array
 
 X - Randomized Array
 
-x̄ - Mean of Randomized Array
+x̄ - Mean of All Elements in Randomized Array
 
-σ = Standard Deviation of Randomized Array</center>
+σ = Standard Deviation of All Elements in Randomized Array
+
+Before using the equation, it is important to note that we should get the mean and standard deviation of all elements in the randomized 5x5 array we made.
+
+In getting the mean of the randomized 5x5 array, the following statement was used:
+
+    np.mean(X) #gets the mean of every element in an array
+    print(np.mean(X))
+
+In getting the standard deviation of the randomized 5x5 array, the following statement was used:
+
+    np.std(X)
+    print(np.std(X))
+
+After getting the values for the mean and standard deviation of all the elements in the randomized 5x5 array, we can now 
 
 
-In getting the 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
