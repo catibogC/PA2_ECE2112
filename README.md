@@ -32,6 +32,8 @@ x̄ - Mean of All Elements in Randomized Array
 
 σ = Standard Deviation of All Elements in Randomized Array
 
+---
+
 Before using the equation, it is important to note that we should get the mean and standard deviation of all elements in the randomized 5x5 array we made.
 
 In getting the mean of the randomized 5x5 array, the following statement was used:
