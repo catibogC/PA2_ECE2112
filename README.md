@@ -65,9 +65,9 @@ This can be done by using the statements we used previously, but instead, we rel
 
 ---
 
-**B. CURVES DIVISIBLE BY 4
+##B. CURVES DIVISIBLE BY 4
 
-**Objectives:** The goal of this problem was to create an array whose elements 
+**Objectives:** The goal of this problem was to obtain elements from a cubed 10x10 array that are divisible by 4.
 
 
 
